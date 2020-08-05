@@ -1,3 +1,7 @@
+# unlock the line below then run only that line to create the database shipments; after that, locking the line again
+# create database shipments;
+
+# after creating the database, run the rest of codes below to make the entries for the database
 use shipments;
 create table s (
 sno varchar(5) not null primary key,
